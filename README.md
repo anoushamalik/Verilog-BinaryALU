@@ -11,7 +11,7 @@ This project is a Verilog implementation of a 4-bit Binary Arithmetic Logic Unit
   - **AND:** Performs a bitwise AND operation between two 4-bit numbers.
   - **OR:** Performs a bitwise OR operation between two 4-bit numbers.
   - **NOT:** Performs a bitwise NOT operation on the first 4-bit input (`A`) and outputs the result.
-- **Two’s Complement Handling:** If the operation involves subtraction (determined by `M`), the result is automatically adjusted to reflect two's complement.
+- **Two’s Complement Handling:** If the operation involves subtraction (determined by `M`), the result is automatically adjusted to reflect the two's complement.
 
 ## Inputs and Outputs
 
@@ -56,8 +56,8 @@ The ALU's operation is determined by the `sel` signal:
 
 ## Contributing
 
-Feel free to contribute by submitting issues or pull requests. Any enhancements to the ALU operations or optimizations are welcome.
+Please feel free to submit issues or pull requests. Any enhancements to the ALU operations or optimizations are welcome.
 
 ## License
 
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
